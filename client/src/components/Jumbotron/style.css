@@ -1,0 +1,26 @@
+.jumbotron {
+  padding: 10px;
+}
+
+.carousel-inner img {
+  -webkit-filter: grayscale(20%);
+  filter: grayscale(20%); /* make all photos black and white */ 
+  margin: auto;
+  width: 100%;
+}
+
+.carousel-caption h3{
+  color: #ffff !important;
+  font-size: large
+}
+
+.save-page-jumbotron{
+  margin: auto;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
